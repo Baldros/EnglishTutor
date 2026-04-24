@@ -29,7 +29,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--input-device",
         type=int,
-        default=None,
+        default=3,
         help="Indice do dispositivo de microfone.",
     )
     parser.add_argument(
